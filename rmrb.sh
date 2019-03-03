@@ -11,4 +11,4 @@ do
         echo "http://paper.people.com.cn/rmrb/page/${year}-${month}/${day}/$i/rmrb${year}${month}${day}$i.pdf" >> down.txt
 done
 # download files
-wget -i down.txt -P ~/rmrb
+wget -i down.txt -P ~/rmrb -a ./rmrb.log
