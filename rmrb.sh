@@ -12,3 +12,8 @@ do
 done
 # download files
 wget -i down.txt -P ~/rmrb -a ./rmrb.log
+
+# AFTER: apt install pdftk
+pdftk ./*.pdf cat output ~/rmrb${year}${month}${day}.pdf
+# Delete temp files
+rm *.pdf
