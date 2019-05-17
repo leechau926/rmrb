@@ -12,3 +12,17 @@ bash rmrb.sh 20
 bash rmrbd.sh 08 20190217
 ```
 第一个参数为指定日期rmrb版面数量，第二个参数为八位数字组成的日期
+
+下载指定日期并且上传
+```shell
+root@bwg:~/rmrb# bash downrmrb.sh 20190511
+08
+2019-05-17 18:55:33 download files completed.
+2019-05-17 18:55:34 merge files completed.
+2019-05-17 18:55:37 upload file completed.
+2019-05-17 18:55:37 delete files completed.
+```
+Requirement:
+1.设置好rclone
+2.安装好 pdftk
+
