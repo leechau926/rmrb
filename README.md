@@ -1,4 +1,8 @@
-# rmrb
+# ARCHIEVED
+2020-7-1 rmrb改版，已创建新的repo
+
+
+## rmrb
 用于下载rmrb，格式为pdf。
 
 下载当天的
